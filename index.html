@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.min.css">
+    <link rel="icon" type="image/png" href="./img/Group 1.png">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://kit.fontawesome.com/3911b696e8.js" crossorigin="anonymous"></script>
+    <title>RezaShop</title>
+</head>
+<body>
+    <header id="header-nav">
+        <div id="menu-nav-right">
+            <button onclick={close} id="menu-close">
+                <a href="#home"><i class="fa-solid fa-xmark"></i></a>
+            </button>
+            <nav class="h-nav">
+                <ul>
+                    <li> <a href="#home">صفحه اصلی</a> </li>
+                    <li> <a href="#">پشتیبانی</a> </li>
+                    <li> <a href="#">تماس با ما</a> </li>
+                    <li> <a href="#">درباره ما</a> </li>
+                </ul>
+            </nav>
+            <div class="n-l-title">
+                <p>پشتیبانی همه روزه از ساعت 8 الی10</p>
+                <p>021-88080808</p>
+            </div>
+        </div>
+        <div id="menu-btn"><a href="#menu-nav-right"><i class="fa-solid fa-bars" id="menu"></i></a></div>
+        <a class="h-logo" href="#home"><img src="./img/Group 2.png" alt=""></a>
+        
+        <div class="nav-right">
+            <nav class="h-nav">
+                <ul>
+                    <li> <a href="#">صفحه اصلی</a> </li>
+                    <li> <a href="#">پشتیبانی</a> </li>
+                    <li> <a href="#">تماس باما</a> </li>
+                    <li> <a href="#">درباره ما</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-left">
+            <div class="n-l-title">
+                <p>پشتیبانی همه روزه از ساعت 8 الی10</p>
+                <p>021-88080808</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone-volume"></i>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="header-mid">
+            <div class="h-m-logo">
+                <img src="./img/Group 3.png" alt="">
+            </div>
+            <div class="h-m-search">
+                <form class="search" action="./index.html">
+                    <input type="text" placeholder="جستجو..." name="search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+                <!-- <div class="right">
+                    <p>جستجو ...</p>
+                </div>
+                <div class="left">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div> -->
+            </div>
+        <div class="h-m-btn">
+            <div class="login">
+                <a href="">ورود<i class="fa-solid fa-right-to-bracket"></i></a></div>
+            <div class="shop">
+                <a href="">خرید<i class="fa-solid fa-cart-arrow-down"></i></a></div>
+        </div>
+        </div>
+        <div class="nav-product">
+            <div class="phone">
+                <nav>
+                    <ul class="list-product">
+                        <li><a href="#">گوشی</a>
+                        <ul>
+                            <li><a href="">سامسونگ</a></li>
+                            <li><a href="">شیائومی</a></li>
+                            <li><a href="">هواوی</a></li>
+                            <li><a href="">موتورولا</a></li>
+                        </ul>
+                        </li>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </ul>
+                    <ul class="list-product">
+                        <li><a href="#">لوازم جانبی</a>
+                        <ul>
+                            <li><a href="">پاوربانک</a></li>
+                            <li><a href="">هندزفری</a></li>
+                            <li><a href="">تبدیل</a></li>
+                            <li><a href="">اسپیکر</a></li>
+                        </ul>
+                        </li>
+                        <i class="fa-solid fa-angle-down arrow-2"></i>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="home-slider">
+            <div class="slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./img/product/cart_4.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/product/laptop_12.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/product/140Z_2106.w023.n001.614B.p1.614.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/product/Banner for e commerce website 2.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/product/pexels-tyler-lastovich-699122.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+        <section class="home-banner">
+            <div class="img-banner">
+                <img src="./img/product/Group 1.png" alt="" class="banner">
+            </div>
+            <div class="img-banner">
+                <img src="./img/product/Group 2.png" alt="" class="banner">
+            </div>
+            <div class="img-banner">
+                <img src="./img/product/Group 3.png" alt="" class="banner">
+            </div>
+            <div class="img-banner">
+                <img src="./img/product/Group 4.png" alt="" class="banner">
+            </div>
+            <!-- <div class="h-b-1">
+                    <div class="right">
+                        <p>خرید با <br> بهترین قیمت</p>
+                        <a href="">خرید<i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                    <div class="left">
+                        <img src="./img/product/phone/0ca836dc8142c065747aa86a9899347631a5b9e5_1608382853-removebg-preview.png" alt="">
+                    </div>
+            </div>
+            <div style="background: #81b29a;" class="h-b-1">
+                    <div class="right">
+                        <p>خرید با <br> ارزانترین قیمت</p>
+                        <a href="">خرید<i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                    <div class="left">
+                        <img src="./img/product/phone/0ca836dc8142c065747aa86a9899347631a5b9e5_1608382853-removebg-preview.png" alt="">
+                    </div>
+            </div>
+            <div style="background: #f2cc8f;" class="h-b-1">
+                    <div class="right">
+                        <p>خرید با <br> بهترین قیمت</p>
+                        <a href="">خرید<i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                    <div class="left">
+                        <img src="./img/product/phone/0ca836dc8142c065747aa86a9899347631a5b9e5_1608382853-removebg-preview.png" alt="">
+                    </div>
+            </div>
+            <div style="background: #f4f1de;" class="h-b-1">
+                    <div class="right">
+                        <p>خرید با <br> بهترین قیمت</p>
+                        <a href="">خرید<i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                    <div class="left">
+                        <img src="./img/product/phone/0ca836dc8142c065747aa86a9899347631a5b9e5_1608382853-removebg-preview.png" alt="">
+                    </div>
+            </div> -->
+        </section>
+        <section>
+            <div class="super-offer">
+                <div class="title">
+                    <img src="./img/discount-shape.png" alt="">
+                    <p>تخفیف های ویژه</p>
+                </div>
+                <hr color="#ebebeb">
+                <div class="swiper cart-mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/3007a58f39bd05359cf8821f509d6c5b730aa537_1645458928.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">پایه نگهدارنده موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="img-product">
+                            <img src="./img/product/phone/15d774761e234a15c1c559ac540963baad9e229f_1631704695.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/43f17674ef278fd79893b070a522a5f62716e596_1611402408.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/phone/25992f560565bc308036ac425b304fc5fc4f1114_1644662985.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/8fe78046f646a1da48d55cfabb0eacacc2b09c7a_1646151731.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">پاوربانک</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/phone/77f6b5b39b58f0b81c7707e3626f55b74ee348aa_1623857594.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/d63bb1c94a8a11bd9ffbce92502a86937108201d_1644254733.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">پایه نگهدارنده موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/phone/c5c4a0bb88dc312a4c2f6de0b1567ef0da31a2d9_1630140406.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">فندکی</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/fec96137d6dedbb6c15dcaa24813a46ba1362bca_1631975153.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+            <div class="banners">
+                <div class="banner">
+                    <img src="./img/product/Group 7.png" alt="">
+                </div>
+                <div class="banner">
+                    <img src="./img/product/Group 8.png" alt="">
+                </div>
+            </div>
+            <div class="super-offer">
+                <div class="title">
+                    <p>محصولات پربازدید</p>
+                </div>
+                <hr color="#ebebeb">
+                <div class="swiper cart-mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/63dfcbcfde00187916252960637c2f8418eac16e_1621930746.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">هدست</span>
+                              <span class="price">299.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="img-product">
+                            <img src="./img/product/8375b5fe21ff4bd97d9acca5b348909f23723add_1643211648.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">هدست</span>
+                              <span class="price">650.00 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/a795325f277284164b6ef12bca543ff8fd9649db_1605975184.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">هدست</span>
+                              <span class="price">440.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/phone/25992f560565bc308036ac425b304fc5fc4f1114_1644662985.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/8fe78046f646a1da48d55cfabb0eacacc2b09c7a_1646151731.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">پاوربانک</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href=""> خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/phone/77f6b5b39b58f0b81c7707e3626f55b74ee348aa_1623857594.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href=""> خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/d63bb1c94a8a11bd9ffbce92502a86937108201d_1644254733.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">پایه نگهدارنده موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href=""> خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/phone/c5c4a0bb88dc312a4c2f6de0b1567ef0da31a2d9_1630140406.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href=""> خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="img-product">
+                            <img src="./img/product/janebi/fec96137d6dedbb6c15dcaa24813a46ba1362bca_1631975153.jpg" alt="">
+                          </div>
+                          <div class="cart-dis">
+                              <span class="title">پایه نگهدارنده موبایل</span>
+                              <span class="price">30.000 تومان</span>
+                              <div class="price-btn">
+                                  <a href="">خرید</a>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </section>
+        <footer id="cantact">
+            <div class="title">
+                <img src="./img/Group 3.png" alt="">
+                <div class="n-l-title">
+                    <p>پشتیبانی همه روزه از ساعت 8 الی10</p>
+                    <p>021-88080808</p>
+                </div>
+            </div>
+            <div class="map">
+                <p>مارا راحت پیدا کنید</p>
+                <img src="./img/2913130.jpg" alt="">
+            </div>
+            <div class="social">
+                <div class="title">با ما همراه باشید</div>
+                <div class="icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        // slider
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        });
+        // carts
+        var cartswiper = new Swiper(".cart-mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        //centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      </script>
+
+</body>
+</html>
